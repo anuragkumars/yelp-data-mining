@@ -1,0 +1,46 @@
+
+Star rating
+
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/div[1]/div
+
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[2]/div/div[1]/div[1]/div/div[2]/div[1]/div
+
+
+<div class="i-stars i-stars--regular-3-half rating-large" title="3.5 star rating">
+        <img class="offscreen" height="303" src="https://s3-media1.fl.yelpcdn.com/assets/srv0/yelp_design_web/41341496d9db/assets/img/stars/stars.png" width="84" alt="3.5 star rating">
+    </div>
+
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/div[1]/div
+
+
+// First search result
+
+//AD ?
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span
+
+link
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/a/span
+
+
+First result
+1.
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[2]/div/div[1]/div[1]/div/div[2]/h3/span
+
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[2]/div/div[1]/div[1]/div/div[2]/h3/span/a/span
+
+
+2. 
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[3]/div/div[1]/div[1]/div/div[2]/h3/span
+
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[3]/div/div[1]/div[1]/div/div[2]/h3/span/a/span
+
+
+
+
+
+<span>Mountain Mike’s Pizza</span>
+
+<a class="biz-name js-analytics-click" data-analytics-label="biz-name" href="/adredir?ad_business_id=N-k9CIXsvraV6fDs-EZH9A&amp;campaign_id=qqrTvz2N1g-Bqwb4oqPbNQ&amp;click_origin=search_results&amp;placement=above_search&amp;redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fmountain-mikes-pizza-sacramento-18&amp;request_id=b217782695dab773&amp;signature=8f5d073ccbfbe80b4d541aab45da65ee9b745aa529f0697393db44ed2f80229b&amp;slot=0" data-hovercard-id="sf7Sb4zIfuQ7CseeArwB6A"><span>Mountain Mike’s Pizza</span></a>
+
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/a
+

@@ -1,0 +1,67 @@
+
+
+#super-container > div > div.clearfix.layout-block.layout-a.scroll-map-container.search-results-block > div.column.column-alpha > div > div.search-results-content > ul:nth-child(2) > li:nth-child(1) > div > div.biz-listing-large > div.main-attributes > div > div.media-story > div.price-category > span.category-str-list > a:nth-child(3)
+
+
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/div[2]/span[2]/a[3]
+
+
+
+                                <input disabled="" autocomplete="off" spellcheck="false" tabindex="-1" style="position: absolute; color: rgb(200, 200, 200); -webkit-text-fill-color: rgb(200, 200, 200); width: 100%; box-sizing: border-box; top: 0px; right: 0px; bottom: 0px; left: 0px; display: none; font-family: &quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-size: 18px; font-style: normal; line-height: 23.2167px; font-weight: 400; letter-spacing: 0px; background-color: transparent; font-kerning: auto; vertical-align: baseline; padding: 0px; border-width: 0px;"><input autocomplete="off" id="find_desc" maxlength="64" placeholder="tacos, cheap dinner, Max’s" value="" class="pseudo-input_field business-search-form_input-field" aria-autocomplete="list" tabindex="1" data-component-bound="true" style="display: inline-block; background: transparent none repeat scroll 0% 0%; position: relative; width: 100%; box-sizing: border-box;"><input maxlength="64" data-component-bound="true" name="find_desc" value="" type="hidden">
+                            
+
+.business-search-form_input--find > div:nth-child(1) > span:nth-child(2)
+
+
+
+Locating Elements with Selenium WebDriver, findElement() method returns and WebElement and findElements() returns a list of WebElements.
+
+1. By ID:
+
+1
+in Java: driver.findElement(By.id("element id"))
+2. By CLASS:
+
+1
+in Java: driver.findElement(By.className("element class"))
+3. By NAME:
+
+1
+in Java: driver.findElement(By.name("element name"))
+4. By TAGNAME:
+
+1
+in Java: driver.findElement(By.tagName("element html tag name"))
+5. By CSS Selector:
+
+1
+in Java: driver.findElement(By.cssSelector("css selector"))
+6. By Link:
+
+1
+in Java: driver.findElement(By.link("link text"))
+7. By XPath:
+
+1
+in Java: driver.findElement(By.xpath("xpath expression"))
+
+
+To open the drop down you will need to click the button that has a linked id with the select list
+
+<button id="menu_id" class="btn dropdown-toggle...>
+Using the locator below
+
+driver.findElement(By.xpath("//button[@id='menu_id']")).click();
+The unordered list below the button corresponds to each of the select options
+
+<li rel="NUMBER">
+This xpath query can be set to select the desired option.
+
+driver.findElement(By.xpath("//button[@id='menu_id']/..//li[@rel='1']")).click();
+or
+
+driver.findElements(By.xpath("//button[@id='menu_id']/..//li")).get(1).click();
+You can replace the number in @rel='NUMBER' with the number of the li tag that is linked to your desired select option.
+
+The reasoning behind including the @id='menu_id' within the xpath query instead of just making a direct query is to make it less brittle due the likelihood of other drop downs on the page sharing identical code leaving the id as a unique identifier to latch onto.
+

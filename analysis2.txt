@@ -1,0 +1,87 @@
+
+Address:
+
+//*[@id="wrap"]/div[2]/div/div[1]/div/div[4]/div[1]/div/div[2]/ul/li[1]/div/strong/address
+
+Phone:
+
+//*[@id="wrap"]/div[2]/div/div[1]/div/div[4]/div[1]/div/div[2]/ul/li[3]/span[3]
+
+Website:
+
+//*[@id="wrap"]/div[2]/div/div[1]/div/div[4]/div[1]/div/div[2]/ul/li[4]/span[2]/a
+
+
+Three comments
+
+
+//*[@id="super-container"]/div/div/div[1]/div[2]/div[1]/ul/li[1]/div[2]/p/text()[1]
+//*[@id="super-container"]/div/div/div[1]/div[2]/div[1]/ul/li[2]/div[2]/p/text()[1]
+//*[@id="super-container"]/div/div/div[1]/div[2]/div[1]/ul/li[3]/div[2]/p/text()[1]
+
+
+//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[1]/div[2]/p
+
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"
+
+//*[@id="super-container"]/div/div/div[1]/div[2]/div[1]/ul/li[1]/div[2]/p/text()[1]
+
+Three top new
+//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[1]/div[2]/p
+//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[2]/div[2]/p
+//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[3]/div[2]/p
+
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"
+//*[@id="super-container"]/div/div/div[1]/div[2]/div[1]/ul/li[1]/div[2]/p
+
+"}
+  (Session info: chrome=58.0.3029.110)
+
+
+link
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span/a
+
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span/a/span
+text
+
+
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span/a/span
+
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span/a
+
+curr
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/a
+
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"
+
+//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/a
+
+"
+}
+  (Session info: chrome=58.0.3029.110)
+
+
+
+
+
+759p
+
+actual
+//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[1]/div[2]/p
+//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[2]/div[2]/p
+
+code
+//*[@id="super-container"]/div/div/div[1]/div[2]/div[1]/ul/li[1]/div[2]/p
+
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"
+
+//*[@id="super-container"]/div/div/div[1]/div[2]/div[1]/ul/li[1]/div[2]/p
+
+"}
+  (Session info: chrome=58.0.3029.110)
+
+
+
