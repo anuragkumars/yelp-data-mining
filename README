@@ -12,12 +12,20 @@ Note: Change reference of these to point to the folders mapped
 -DUseInputFilePath=C:/dev/docs/BrightPlan/BrightPlan_B/testing/input/ 
 -DUseOutputFilePath=C:/dev/docs/BrightPlan/BrightPlan_B/testing/output/
 
-For unix, replace ;^ with :
+For unix, replace ;^ with :\
 
 This command can be run from Jenkins as well.
 
 End of run, check output folder for report file and any error screen shot
 
+save the content below in run_prog.bat file and if your folder structure looks like
+
+Windows:
+C:\dev\docs\BrightPlan\BrightPlan_B\src
+C:\dev\docs\BrightPlan\BrightPlan_B\test
+..
+
+############## WINDOWS VERSION - BEGIN ##############
 java -cp bin;^
 lib/cglib-nodep-3.2.4.jar;^
 lib/commons-codec-1.10.jar;^
@@ -53,5 +61,12 @@ lib/xalan-2.7.2.jar;^
 lib/xercesImpl-2.11.0.jar;^
 lib/xml-apis-1.4.01.jar;^
 lib/client-combined-3.3.1-nodeps.jar -DconfigFile=C:/dev/docs/BrightPlan/BrightPlan_B/testing/config/BPlan_RunInfo.properties -DUseInputFilePath=C:/dev/docs/BrightPlan/BrightPlan_B/testing/input/ -DUseOutputFilePath=C:/dev/docs/BrightPlan/BrightPlan_B/testing/output/ -DUseErrorFilePath=C:/dev/docs/BrightPlan/BrightPlan_B/testing/output/ org.junit.runner.JUnitCore com.brightplan.automation.projects.yelp.YELP001_DisplaySearchDetails_JUnit > run3.txt
+
+############## WINDOWS VERSION - END ##############
+
+
+############## MAC VERSION - BEGIN ##############
+
+############## MAC VERSION - END ##############
 
 
