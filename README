@@ -1,3 +1,5 @@
+ADDED: Linux/Mac script. (Have not tested since I don't use Mac but it should work)
+
 1) Import the project into eclipse and compile as needed
 Once you unzip the contents there is a .project file and .classpath file under folder similar to C:\dev\docs\BrightPlan\BrightPlan_B 
 depending upon where the downloaded zip file is unzipped
