@@ -1,0 +1,225 @@
+instantiating (com.brightplan.automation.utils.selenium.SeleniumUtilTest)
+instantiated (com.brightplan.automation.utils.selenium.SeleniumUtilTest)
+{Sun Jun 04 21:54:32 PDT 2017}Entered init()..
+{Sun Jun 04 21:54:32 PDT 2017}Property (selenium.org62.endpoint) set as (null)
+{Sun Jun 04 21:54:32 PDT 2017}Property (selenium.org62.userName) set as (null)
+{Sun Jun 04 21:54:32 PDT 2017}Property (selenium.maximizeBrowserWin) set as (true)
+{Sun Jun 04 21:54:32 PDT 2017}Property (selenium.waitTimeLinkClick) set as (5000)
+{Sun Jun 04 21:54:32 PDT 2017}Property (selenium.waitTimePageLoad) set as (5000)
+{Sun Jun 04 21:54:32 PDT 2017}Property (selenium.closeBrowserWin) set as (true)
+{Sun Jun 04 21:54:32 PDT 2017}Selenium driver location taken as is from properties file
+{Sun Jun 04 21:54:32 PDT 2017}Property webdriver.chrome.driver from -> selenium.webdriver.chrome) set as (C:/dev/docs/BrightPlan/BrightPlan_B/driver/chromedriver.exe)
+{Sun Jun 04 21:54:32 PDT 2017}is_bRemoteExecutionEnabled(): false
+{Sun Jun 04 21:54:32 PDT 2017}Exiting init()..
+{Sun Jun 04 21:54:32 PDT 2017}init_driver:: Initializaing driver as is_bInitAtLogin() is true
+{Sun Jun 04 21:54:32 PDT 2017}init_driver:: Initializaing Driver, checking if is_remoteExecutionEnabled() is true ? : false
+{Sun Jun 04 21:54:32 PDT 2017}init_driver:: is_remoteExecutionEnabled is false, running in local mode
+{Sun Jun 04 21:54:32 PDT 2017}init_driver:: Initializaing ChromeDriver : true
+{Sun Jun 04 21:54:32 PDT 2017}init_driver::  using capabilities : Capabilities [{browserName=chrome, version=, platform=ANY}]
+Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 42280
+Only local connections are allowed.
+Jun 04, 2017 9:54:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+{Sun Jun 04 21:54:36 PDT 2017}init_driver:: Initialized ChromeDriver
+{Sun Jun 04 21:54:36 PDT 2017}
+
+
+{Sun Jun 04 21:54:36 PDT 2017}>> Step 1. Go to yelp.com
+{Sun Jun 04 21:54:36 PDT 2017}
+
+
+{Sun Jun 04 21:54:36 PDT 2017}SeleniumUtilHelper::navigateToUrl - Go to yelp.com
+{Sun Jun 04 21:54:48 PDT 2017}
+
+
+{Sun Jun 04 21:54:48 PDT 2017}>> Step 2. Select “Restaurants” in the dropdown box in Find
+{Sun Jun 04 21:54:48 PDT 2017}
+
+
+{Sun Jun 04 21:54:48 PDT 2017}SeleniumUtilHelper::setFocusOnElement - Setting focus on Find
+{Sun Jun 04 21:54:48 PDT 2017}SeleniumUtilHelper::getWebElement - Setting focus on Find
+{Sun Jun 04 21:54:48 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:54:53 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:54:53 PDT 2017}
+
+
+{Sun Jun 04 21:54:53 PDT 2017}>> Step 3. Click Search button
+{Sun Jun 04 21:54:53 PDT 2017}
+
+
+{Sun Jun 04 21:54:53 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Sun Jun 04 21:54:53 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Sun Jun 04 21:54:53 PDT 2017}SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Sun Jun 04 21:54:53 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:54:58 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:12 PDT 2017}Current Url is : https://www.yelp.com/search?find_desc=Restaurants&find_loc=Sacramento%2C+CA&ns=1
+{Sun Jun 04 21:55:12 PDT 2017}SeleniumUtilHelper::findAndClickOnElementWithValue - Select 'Restaurants' in the dropdown box in Find
+{Sun Jun 04 21:55:12 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Select 'Restaurants' in the dropdown box in Find
+{Sun Jun 04 21:55:12 PDT 2017}SeleniumUtilHelper::getWebElement - Select 'Restaurants' in the dropdown box in Find
+{Sun Jun 04 21:55:12 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:17 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:17 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Sun Jun 04 21:55:17 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Click Find button after setting search criteria
+{Sun Jun 04 21:55:17 PDT 2017}SeleniumUtilHelper::getWebElement - Click Find button after setting search criteria
+{Sun Jun 04 21:55:17 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:22 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:22 PDT 2017}SeleniumUtilHelper::getElementText - Get total result count
+{Sun Jun 04 21:55:22 PDT 2017}SeleniumUtilHelper::getWebElement - Get total result count
+{Sun Jun 04 21:55:22 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:27 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:28 PDT 2017}Total Initial Result : Showing 1-10 of 1578
+{Sun Jun 04 21:55:28 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:28 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:28 PDT 2017}SeleniumUtilHelper::getWebElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:28 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:33 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:33 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:33 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:33 PDT 2017}SeleniumUtilHelper::getWebElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:33 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:38 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:38 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:38 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:38 PDT 2017}SeleniumUtilHelper::getWebElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:38 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:43 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:43 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:43 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:43 PDT 2017}SeleniumUtilHelper::getWebElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:43 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:48 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:48 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:48 PDT 2017}SeleniumUtilHelper::findAndClickOnElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:48 PDT 2017}SeleniumUtilHelper::getWebElement - Expand All Filters to select parameters
+{Sun Jun 04 21:55:48 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:53 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:53 PDT 2017}SeleniumUtilHelper::getElementText - Get total result count
+{Sun Jun 04 21:55:53 PDT 2017}SeleniumUtilHelper::getWebElement - Get total result count
+{Sun Jun 04 21:55:53 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:58 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:55:58 PDT 2017}totalCount : (Showing 1-10 of 20)
+{Sun Jun 04 21:55:58 PDT 2017}Total times to loop : 10
+{Sun Jun 04 21:55:58 PDT 2017}Looking for (1) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Sun Jun 04 21:55:58 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:03 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:03 PDT 2017}Adding rating for index (1) tag (div) to list as (3.5 star rating)
+{Sun Jun 04 21:56:03 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:08 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:08 PDT 2017}Looking for link name (1) (1. Pizza Guys) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Sun Jun 04 21:56:08 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:13 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:13 PDT 2017}Looking for (2) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[2]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Sun Jun 04 21:56:13 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:18 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:18 PDT 2017}Adding rating for index (2) tag (div) to list as (3.5 star rating)
+{Sun Jun 04 21:56:18 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:23 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:24 PDT 2017}Looking for link name (2) (2. Mountain Mike’s Pizza) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[2]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Sun Jun 04 21:56:24 PDT 2017}Looking for (3) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[3]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Sun Jun 04 21:56:24 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:29 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:29 PDT 2017}Adding rating for index (3) tag (div) to list as (3.5 star rating)
+{Sun Jun 04 21:56:29 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:34 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:34 PDT 2017}Looking for link name (3) (3. New York Pizza & Plus) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[3]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Sun Jun 04 21:56:34 PDT 2017}Looking for (4) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[4]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Sun Jun 04 21:56:34 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:39 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:39 PDT 2017}Adding rating for index (4) tag (div) to list as (2.5 star rating)
+{Sun Jun 04 21:56:39 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:44 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:44 PDT 2017}Looking for link name (4) (4. Round Table Pizza) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[4]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Sun Jun 04 21:56:44 PDT 2017}Looking for (5) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[5]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Sun Jun 04 21:56:44 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:49 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:49 PDT 2017}Adding rating for index (5) tag (div) to list as (2.5 star rating)
+{Sun Jun 04 21:56:49 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:54 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:54 PDT 2017}Looking for link name (5) (5. Domino’s Pizza) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[5]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Sun Jun 04 21:56:54 PDT 2017}Looking for (6) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[6]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Sun Jun 04 21:56:54 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:59 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:56:59 PDT 2017}Adding rating for index (6) tag (div) to list as (4.0 star rating)
+{Sun Jun 04 21:56:59 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:04 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:04 PDT 2017}Looking for link name (6) (6. Little Caesar’s Pizza) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[6]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Sun Jun 04 21:57:04 PDT 2017}Looking for (7) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[7]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Sun Jun 04 21:57:04 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:09 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:09 PDT 2017}Adding rating for index (7) tag (div) to list as (4.0 star rating)
+{Sun Jun 04 21:57:09 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:14 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:14 PDT 2017}Looking for link name (7) (7. Anthony’s Italian Cuisine) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[7]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Sun Jun 04 21:57:14 PDT 2017}Looking for (8) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[8]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Sun Jun 04 21:57:14 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:19 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:20 PDT 2017}Adding rating for index (8) tag (div) to list as (3.0 star rating)
+{Sun Jun 04 21:57:20 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:25 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:25 PDT 2017}Looking for link name (8) (8. Papa Murphy’s) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[8]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Sun Jun 04 21:57:25 PDT 2017}Looking for (9) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[9]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Sun Jun 04 21:57:25 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:30 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:30 PDT 2017}Adding rating for index (9) tag (div) to list as (2.5 star rating)
+{Sun Jun 04 21:57:30 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:35 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:35 PDT 2017}Looking for link name (9) (9. Round Table Pizza) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[9]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Sun Jun 04 21:57:35 PDT 2017}Looking for (10) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[10]/div/div[1]/div[1]/div/div[2]/div[1]/div)
+{Sun Jun 04 21:57:35 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:40 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:40 PDT 2017}Adding rating for index (10) tag (div) to list as (3.5 star rating)
+{Sun Jun 04 21:57:40 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:45 PDT 2017}WebElementType::getElement - End sleeping/delaying for 5000 milliseconds
+{Sun Jun 04 21:57:45 PDT 2017}Looking for link name (10) (10. Pearl On the River) xpath (//*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[10]/div/div[1]/div[1]/div/div[2]/h3/span)
+{Sun Jun 04 21:57:45 PDT 2017}[3.5 star rating, 3.5 star rating, 3.5 star rating, 2.5 star rating, 2.5 star rating, 4.0 star rating, 4.0 star rating, 3.0 star rating, 2.5 star rating, 3.5 star rating]
+{Sun Jun 04 21:57:45 PDT 2017}{1. Pizza Guys=3.5 star rating, 2. Mountain Mike’s Pizza=3.5 star rating, 3. New York Pizza & Plus=3.5 star rating, 4. Round Table Pizza=2.5 star rating, 5. Domino’s Pizza=2.5 star rating, 6. Little Caesar’s Pizza=4.0 star rating, 7. Anthony’s Italian Cuisine=4.0 star rating, 8. Papa Murphy’s=3.0 star rating, 9. Round Table Pizza=2.5 star rating, 10. Pearl On the River=3.5 star rating}
+{Sun Jun 04 21:57:45 PDT 2017}
+
+
+{Sun Jun 04 21:57:45 PDT 2017}>> Step 10. Click and expand the first result from the search results
+
+Clicking on (Pizza Guys) firstElem : [[ChromeDriver: chrome on WIN8_1 (bc454321e190db76d25021393e165305)] -> xpath: //*[@id="super-container"]/div/div[2]/div[1]/div/div[4]/ul[2]/li[1]/div/div[1]/div[1]/div/div[2]/h3/span/a]
+{Sun Jun 04 21:57:50 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Address)
+{Sun Jun 04 21:57:50 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="wrap"]/div[2]/div/div[1]/div/div[4]/div[1]/div/div[2]/ul/li[1]/div/strong/address)
+{Sun Jun 04 21:57:50 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Sun Jun 04 21:57:51 PDT 2017}WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Sun Jun 04 21:57:51 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Address) value (1620 W El Camino Ave
+Ste 160
+Sacramento, CA 95833)
+{Sun Jun 04 21:57:51 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Phone)
+{Sun Jun 04 21:57:51 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="wrap"]/div[2]/div/div[1]/div/div[4]/div[1]/div/div[2]/ul/li[3]/span[3])
+{Sun Jun 04 21:57:51 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Sun Jun 04 21:57:52 PDT 2017}WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Sun Jun 04 21:57:52 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Phone) value ((916) 925-4444)
+{Sun Jun 04 21:57:52 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Website)
+{Sun Jun 04 21:57:52 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="wrap"]/div[2]/div/div[1]/div/div[4]/div[1]/div/div[2]/ul/li[4]/span[2]/a)
+{Sun Jun 04 21:57:52 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Sun Jun 04 21:57:53 PDT 2017}WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Sun Jun 04 21:57:53 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Website) value (pizzaguys.com)
+{Sun Jun 04 21:57:53 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Review.1)
+{Sun Jun 04 21:57:53 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[1]/div[2]/p)
+{Sun Jun 04 21:57:53 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Sun Jun 04 21:57:54 PDT 2017}WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Sun Jun 04 21:57:54 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Review.1) value (“I enjoy pizza guys they always have great coupon specials and if your order is over $12 you get a free 2 liter upon pick up.” in 12 reviews)
+{Sun Jun 04 21:57:54 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Review.2)
+{Sun Jun 04 21:57:54 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[2]/div[2]/p)
+{Sun Jun 04 21:57:54 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Sun Jun 04 21:57:55 PDT 2017}WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Sun Jun 04 21:57:56 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Review.2) value (“If you spend over $18 and pickup your order you will receive a FREE 2 liter or ice cream.” in 4 reviews)
+{Sun Jun 04 21:57:56 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Got key constructed as (merchant.Review.3)
+{Sun Jun 04 21:57:56 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Got keyRed constructed as (//*[@id="super-container"]/div/div/div[1]/div[1]/div[1]/ul/li[3]/div[2]/p)
+{Sun Jun 04 21:57:56 PDT 2017}WebElementType::getElement - Begin sleeping/delaying for 1000 milliseconds
+{Sun Jun 04 21:57:57 PDT 2017}WebElementType::getElement - End sleeping/delaying for 1000 milliseconds
+{Sun Jun 04 21:57:57 PDT 2017}SeleniumUtilHelper::getDetailsFromPageAsMap - Saving key (merchant.Review.3) value (“Ordered the garlic cheesy bread for lunch not bad at all.” in 1 reviews)
+{Sun Jun 04 21:57:57 PDT 2017}*** Start [Merchant Details] HashMap (String) dump ***
+{Sun Jun 04 21:57:57 PDT 2017}
+key (merchant.Address) val (1620 W El Camino Ave
+Ste 160
+Sacramento, CA 95833)
+key (merchant.Phone) val ((916) 925-4444)
+key (merchant.Website) val (pizzaguys.com)
+key (merchant.Review.1) val (“I enjoy pizza guys they always have great coupon specials and if your order is over $12 you get a free 2 liter upon pick up.” in 12 reviews)
+key (merchant.Review.2) val (“If you spend over $18 and pickup your order you will receive a FREE 2 liter or ice cream.” in 4 reviews)
+key (merchant.Review.3) val (“Ordered the garlic cheesy bread for lunch not bad at all.” in 1 reviews)
+
+{Sun Jun 04 21:57:57 PDT 2017}*** End [Merchant Details] HashMap (String) dump ***
